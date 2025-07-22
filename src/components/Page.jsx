@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+/* ksksk*/
 const Page = ({ questions, sonuc, number, setNumber, fm, dis, setDisable }) => {
   const handleClick = (count) => {
     const ques = count.split('-')[0]
