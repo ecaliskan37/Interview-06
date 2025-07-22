@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import Quiz from './components/Quiz'
-import array from './data/list'
+import questions from './data/list'
 
 function App() {
-  const [sonuc, setSonuc] = useState([])
-  return <Quiz questions={array} fm={setSonuc} sonuc={sonuc} />
+  return <Quiz questions={questions} />
 }
 
 export default App
